@@ -1,0 +1,28 @@
+body {
+                background-color: lightblue;
+            }   
+h1 {
+                border: 2px inset black;
+                padding: 10px;
+                margin: 10px;
+                width: 100px;
+                border: 2px inset black;
+                background-color: rgb(0, 41, 128);
+                color: orange;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+p {
+                color: black;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: rgba(12, 50, 130, 0.409);
+            }
+#paragrafo2 {
+                color: rgb(247, 4, 4);
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: rgba(12, 50, 130, 0.409);
+            }
+.paragrafo3 {
+                color: rgb(98, 0, 255);
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: rgba(12, 50, 130, 0.409);
+            }
