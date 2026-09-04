@@ -1,28 +1,125 @@
 body {
-                background-color: lightblue;
-            }   
+    border: none;
+    padding: 40px;
+    background-color: #0f172a; 
+    color: #334155;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 h1 {
-                border: 2px inset black;
-                padding: 10px;
-                margin: 10px;
-                width: 100px;
-                border: 2px inset black;
-                background-color: rgb(0, 41, 128);
-                color: orange;
-                font-family: Arial, Helvetica, sans-serif;
-            }
+    text-align: center;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    border: 2px solid #38bdf8;
+    color: #38bdf8; /* Azul claro vibrante */
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+}
+
+.intro-box {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+}
+
+h2 {
+    position: relative;
+    text-align: left;
+    padding: 5px 0;
+    margin: 10px 0;
+    color: #f8fafc;
+}
+
+.intro-box h2 {
+    color: #1e293b;
+}
+
 p {
-                color: black;
-                font-family: Arial, Helvetica, sans-serif;
-                background-color: rgba(12, 50, 130, 0.409);
-            }
+    border: none;
+    padding: 10px 0;
+    margin: 5px 0;  
+    color: #475569;
+    line-height: 1.6;
+    
+    strong {
+        color: #0284c7;
+    }
+}
+
 #paragrafo2 {
-                color: rgb(247, 4, 4);
-                font-family: Arial, Helvetica, sans-serif;
-                background-color: rgba(12, 50, 130, 0.409);
-            }
-.paragrafo3 {
-                color: rgb(98, 0, 255);
-                font-family: Arial, Helvetica, sans-serif;
-                background-color: rgba(12, 50, 130, 0.409);
-            }
+    color: #38bdf8;
+    font-size: 1.2rem;
+    margin-top: 30px;
+    
+    strong {
+        color: #38bdf8;
+    }
+}
+
+.lista-jogos {
+    background-color: #ffffff;
+    padding: 25px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    
+    li {
+        margin: 8px 0;
+        color: #1e293b;
+        
+        ul {
+            margin-top: 5px;
+            color: #64748b;
+        }
+    }
+}
+
+.plataforma-titulo {
+    color: #f8fafc;
+    margin-top: 35px;
+}
+
+.plataformas {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+span.botao {
+    margin: 0;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 18px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    background-color: #0ea5e9;
+    transition: background-color 0.2s, transform 0.2s;
+    display: inline-block;
+}
+
+span.botao:hover {
+    background-color: #0284c7;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+
+.paragrafo4 {
+    color: #94a3b8;
+    text-align: center;
+    margin-top: 40px;
+    border: none;
+    padding: 15px;
+    font-size: 0.9rem;
+    background-color: #1e293b;
+}
